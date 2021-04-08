@@ -1,0 +1,70 @@
+/* Style Sheet If You Build It (table), They Will Come */
+/* Name: Jake Harrison*/
+
+/* Gradient target HTML body element tag */
+
+body{
+    background: linear-gradient(160deg, white, grey, black);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+table{
+    width: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    table-layout:auto;
+    margin-left: 25%;
+    
+    
+}
+table th{
+    padding: 3px;
+    background-color: lightslategrey;
+    border-style: solid;
+    border-color: black;
+    border: 2px;
+}
+table td{
+    border-style: solid;
+    border-color: black;
+    border: 2px;
+    background-color: rgb(248, 133, 133);
+}
+.footer{
+    background-color:lightslategrey;
+    color: black;
+    text-align: center;
+}
+caption{
+    box-align: center;
+}
+colgroup{    
+    background-color: rgb(153, 74, 74);
+}
+			
+		  
+
+
+
+/* css target HTML Table caption tag */
+
+
+
+/* css target HTML Table thead tag */
+ 
+ 
+ 
+/* css target HTML Table tfoot tag */
+ 
+ 
+ 
+/* Add a pseudo-class selector (page 320) */
+/* For example --  :nth-child(even)       */
+ 
+ 
+ 
+ 
+/* use colgroup */
+/* Week 3, Wednesday Video Lesson Chapter 8 folder - Table Column Group, page 173 */
