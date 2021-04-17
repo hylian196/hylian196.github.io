@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+#name{
+    font-size: 21;    
+    color: #f76161;  
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background: #FFFFFF;
+background: -moz-linear-gradient(top, #FFFFFF 0%, #919191 36%, #000000 100%);
+background: -webkit-linear-gradient(top, #FFFFFF 0%, #919191 36%, #000000 100%);
+background: linear-gradient(to bottom, #FFFFFF 0%, #919191 36%, #04d9ff 100%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
+}
+
+  .sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 60px;
+    background: #333;
+  }
+  
+  
+    .sidenav .nav {
+      position: relative;
+      display: flex;
+      align-items: stretch;
+      z-index: 1000;
+      left: 0px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+    }
+
+    .sidenav .nav.active {
+      left: -10px;
+    }
+
+    .sidenav .nav:hover {
+      left: -85px;      
+    }
+
+      .sidenav .description, .sidenav .icon {
+        height: 60px;
+        line-height: 60px;
+        background: #04d9ff;
+      }
+
+      .sidenav .nav.active .description, .sidenav .nav.active .icon {
+        background: #04d9ff;
+      }
+
+      .sidenav .icon {
+        width: 60px;          
+        text-align: start;
+        color: #333;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+
+      .sidenav .description {
+        position: relative;
+        left: 60px;
+        color: #333;
+        min-width: 80px;
+        padding-left: 20px;
+        height: 100%;
+      }
+
+  .content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 60px;        
+    height: 100%;
+    z-index: 10;
+    background: #ddd;
+  }
+    table.darkTable {
+        font-family: "Arial Black", Gadget, sans-serif;
+        border: 2px solid #000000;
+        background-color: #4A4A4A;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      table.darkTable td, table.darkTable th {
+        border: 1px solid #4A4A4A;
+        padding: 3px 2px;
+      }
+      table.darkTable tbody td {
+        font-size: 13px;
+        color: #E6E6E6;
+      }
+      table.darkTable tr:nth-child(even) {
+        background: #888888;
+      }
+      table.darkTable thead {
+        background: #000000;
+        border-bottom: 3px solid #000000;
+      }
+      table.darkTable thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #E6E6E6;
+        text-align: center;
+        border-left: 2px solid #4A4A4A;
+      }
+      table.darkTable thead th:first-child {
+        border-left: none;
+      }
+      
+      table.darkTable tfoot td {
+        font-size: 12px;
+      }
+      
+
+
